@@ -1,0 +1,19 @@
+@import "../utilidades/variables";
+.btn{
+    width: 150px;
+    border-radius: 5px;
+    }
+.btn:hover {
+    cursor: pointer;
+    opacity: .85;
+}
+.btn-1{
+    @extend .btn;
+    background-color: $bg-btn-secundario;
+    color: white
+}
+.btn-2{
+    @extend .btn;
+    background-color: $bg-btn-principal;
+    color: white;
+}

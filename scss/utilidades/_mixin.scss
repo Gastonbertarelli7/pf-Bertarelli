@@ -1,0 +1,10 @@
+//mixin
+
+//mixin con parametros
+@mixin productos ($width, $height){
+width: $width;
+height:$height ;
+border-radius: 10px;
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.5);
+}

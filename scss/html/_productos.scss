@@ -1,0 +1,14 @@
+@import "../utilidades/mixin";
+
+
+.tarjeta{
+    @include productos(250px, 300px);
+
+    .textoUno {
+        color: red;
+    }
+
+    .textoDos {
+        color: green;
+    }
+}

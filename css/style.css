@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.btn, .btn-1, .btn-2 {
+  width: 150px;
+  border-radius: 5px; }
+
+.btn:hover, .btn-1:hover, .btn-2:hover {
+  cursor: pointer;
+  opacity: .85; }
+
+.btn-1 {
+  background-color: #6605e6;
+  color: white; }
+
+.btn-2 {
+  background-color: #32b9e6;
+  color: white; }
+
+.tarjeta {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .tarjeta .textoUno {
+    color: red; }
+  .tarjeta .textoDos {
+    color: green; }
+
+/* estilos generales */
+body {
+  /* se utiliza por ejemplo para colores generales tipografias, tamaños generales...*/
+  background-color: brown; }
+
+.inicio {
+  background-color: brown !important; }
+
+/* estilos del main*/
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: start;
+  color: white; }
+
+section {
+  color: white; }
+
+main form fieldset {
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  display: flex; }
+
+/* estilos del footer*/
+footer {
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between; }
+
+footer h2 {
+  margin-top: 1rem; }
+
+@media screen and (min-width: 600px) {
+  main {
+    display: block; } }
+
+@media screen and (min-width: 1200px) {
+  main {
+    display: block; }
+  .picada {
+    width: 24rem;
+    height: 26rem;
+    margin: 1rem; } }
+
+.mapa {
+  width: 18rem;
+  height: 20rem;
+  margin: 1rem; }
