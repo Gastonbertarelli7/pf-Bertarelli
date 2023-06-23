@@ -32,9 +32,14 @@
     color: red; }
   .tarjeta .textoDos {
     color: green; }
+ .picaditas1{
+  width: 100px;
+  height: 100px;
+ }   
 
 /* estilos generales */
-body {
+
+  body {
   /* se utiliza por ejemplo para colores generales tipografias, tamaños generales...*/
   background-color: brown; }
 
@@ -89,6 +94,8 @@ footer h2 {
       height: 200px;
       object-fit: cover;
     }
+  
+  
 @media screen and (min-width: 1200px) {
   main {
     display: block; }
@@ -96,6 +103,13 @@ footer h2 {
     width: 24rem;
     height: 26rem;
     margin: 1rem; } }
+ .quienes-somos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+   }
 
 .mapa {
   width: 18rem;
